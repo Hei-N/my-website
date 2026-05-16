@@ -1,30 +1,71 @@
+/* ===== Page background and base text ===== */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 20px;
+    background-color: #f5b562; /* warm peach/orange background */
+    color: #4a1d6b;            /* deep purple text */
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
     line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
 }
 
+/* ===== Centered container for all content ===== */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ===== Title box with purple border ===== */
 h1 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 10px;
+    color: #4a1d6b;
+    font-size: 38px;
+    text-align: center;
+    border: 3px solid #4a1d6b;
+    padding: 25px 20px;
+    margin: 0 0 30px 0;
 }
 
+h2 {
+    color: #4a1d6b;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+/* ===== Paragraphs ===== */
 p {
-    font-size: 18px;
+    margin-bottom: 15px;
 }
 
+/* ===== Inline links (underlined purple text) ===== */
 a {
-    color: #3498db;
-    text-decoration: none;
-    font-weight: bold;
+    color: #4a1d6b;
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #e67e22;
+    color: #7a3aa6;
+}
+
+/* ===== Image placeholder ===== */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #4a1d6b;
+}
+
+/* ===== Top navigation (small home link) ===== */
+.nav {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    color: #4a1d6b;
+    font-size: 14px;
+    margin-top: 40px;
 }
